@@ -64,7 +64,7 @@ class Actor:
         return self._text
 
     def set_text(self, text):
-        self._text = text;
+        self._text = text
 
     def get_velocity(self):
         """Gets the actor's speed and direction.
@@ -84,7 +84,9 @@ class Actor:
         
         Args:
             self (Actor): an instance of Actor.
+            
         """
+        
         x = self._position.get_x()
         y = self._position.get_y()
         dx = self._velocity.get_x()
